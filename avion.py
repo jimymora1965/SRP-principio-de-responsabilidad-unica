@@ -2,8 +2,8 @@ class Tanque_Combustible:
     def __init__(self):
         self.combustible = 100
 
-    def agregar_combustible(self,cantidad):
-        self.combustible  = self.combustible + cantidad
+    # def agregar_combustible(self,cantidad):
+    #     self.combustible  = self.combustible + cantidad
 
     def obtener_combustible(self):
         return self.combustible
